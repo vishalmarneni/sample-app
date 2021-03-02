@@ -25,7 +25,6 @@ const UserTable = () => {
     isLoading,
     usersData,
     columns,
-    error
   } = useUsers();
 
   const classes = useStyles();

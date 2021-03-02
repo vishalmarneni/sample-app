@@ -29,8 +29,8 @@ const Gender = ({ type }) => {
 }
 
 const Location = ({ details }) => {
-  const { latitude, longitude, country } = details
-  return (<Button color="primary" href={`//maps.google.com/maps?q={latitude},{longitude}`}>
+  const { country } = details
+  return (<Button color="primary" href={`//maps.google.com/maps`}>
     {country}
   </Button>)
 }
